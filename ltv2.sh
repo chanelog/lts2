@@ -66,7 +66,7 @@ while true; do
     fi
 
     # Menggunakan curl untuk memeriksa apakah client_name ada dalam file permission.txt
-    permission_file=$(curl -s https://raw.githubusercontent.com/Genome26/lts2/main/reg/ip)
+    permission_file=$(curl -s https://github.com/chanelog/lts2/raw/main/reg/ip)
     
     # Mengambil IP_VPS juga untuk validasi di izin.txt
     IP_VPS=$(curl -s https://ipinfo.io/ip) # Pastikan ini mengambil IP publik
